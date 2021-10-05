@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +37,89 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.inactive{
+  color:#AAA
+}
+
+.active{
+  color:#000
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav{
+  color: #000
+}
+
+
+
+
+
+.logoSection{
+  height: 25vw;
+  width: 100%
+}
+
+.light1{
+  background-color: #E2E2E2;
+}
+
+.light2{
+  background-color: #ECECEC;
+}
+
+.dark1{
+  color: #fff
+}
+
+.projects{
+  color: #000
+}
+
+.projBar{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectListing{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  width: 105px;
+  margin: 20px
+}
+
+.stack1{
+  transform: rotate(5deg);  
+}
+
+.stack2{
+  transform: rotate(-3deg);
+}
+
+.stack *{
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border: 1px solid #000;
+}
+
+.stackTop{
+  z-index: 1;
+  color: #000
 }

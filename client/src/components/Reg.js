@@ -48,6 +48,7 @@ const Reg = () => {
                     <input type="text" className="form-control" name="firstName" onChange={changehandler} />
                     {errors.firstName ? <p className="text-danger">{errors.firstName.message}</p> : ""}
                 </div>
+
                 <div className="form-group">
                     <label>Email</label>
                     <input type="text" className="form-control" name="email" onChange={changehandler} />
